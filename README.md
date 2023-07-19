@@ -1,4 +1,4 @@
-# Emotions-Detection-CNN
+# Facial Emotions-Detection-CNN
 
 Built a Convolutional Neural Network (CNN) for emotion recognition using the Keras library with TensorFlow backend. This CNN model takes grayscale images of size 48x48 as input and aims to classify emotions into 7 classes. The dataset consists of a training set and a validation set.
 
