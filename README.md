@@ -4,14 +4,14 @@ Built a Convolutional Neural Network (CNN) for emotion recognition using the Ker
 
 Here's a summary of the steps taken in the code:
 
--Import the necessary libraries for building and training the CNN.
--Preprocess the training and test data using ImageDataGenerator with data augmentation for the training data (to improve generalization).
--Build the CNN model using models.Sequential() and add convolutional layers, max-pooling layers, dropout layers, and fully connected layers.
--Compile the CNN model with an Adam optimizer, categorical cross-entropy loss, and accuracy as a metric.
--Train the CNN model on the training set and evaluate it on the validation set using fit().
--Save the trained model to a file named 'Emotions-Model.h5'.
--Plot and save the training and validation loss/accuracy over epochs using Matplotlib.
--Setting up the CNN architecture, data preprocessing, and training. Training for 80 epochs might be sufficient.
+- Import the necessary libraries for building and training the CNN.
+- Preprocess the training and test data using ImageDataGenerator with data augmentation for the training data (to improve generalization).
+- Build the CNN model using models.Sequential() and add convolutional layers, max-pooling layers, dropout layers, and fully connected layers.
+- Compile the CNN model with an Adam optimizer, categorical cross-entropy loss, and accuracy as a metric.
+- Train the CNN model on the training set and evaluate it on the validation set using fit().
+- Save the trained model to a file named 'Emotions-Model.h5'.
+- Plot and save the training and validation loss/accuracy over epochs using Matplotlib.
+- Setting up the CNN architecture, data preprocessing, and training. Training for 80 epochs might be sufficient.
 - We can experiment with the number of epochs and other ---hyperparameters to potentially improve the model's performance.
 
 
